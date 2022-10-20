@@ -3,5 +3,6 @@
 .vscode/
 .DS_Store
 node_modules/
+libs/
 yarn.lock
 package-lock.json
