@@ -8,11 +8,11 @@
 
   &__list {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    @include unlist;
-    column-gap: 25px;
+    flex-wrap: wrap;
 
+    column-gap: 25px;
+    @include unlist;
     @include xl {
       display: none;
     }
@@ -20,6 +20,7 @@
 
   &__link {
     display: block;
+
     padding: 1em;
   }
 }
